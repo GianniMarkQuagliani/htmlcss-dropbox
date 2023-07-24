@@ -74,6 +74,9 @@ li{
     margin-top: 60px;
 }
 
+.pad-top-bottom-15{
+    padding: 130px 0;
+}
 .debug{
     border: 2px solid red; /* Aggiunge un bordo rosso */
     outline: 2px solid blue; /* Aggiunge un contorno blu */
