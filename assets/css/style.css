@@ -19,17 +19,13 @@ body{
     --background-color-btn: rgb(0, 95, 251);
 }
 
-.btn{
-    background-color: var(--background-color-btn);
-    color: var(--color-white);
-    cursor: pointer;
-    padding: 10px 13px;
-}
+
 
 a{
     text-decoration: none;
     color: var(--color-black);
 }
+
 
 /* UTILIS  */
 
@@ -53,22 +49,26 @@ a{
     align-items: center;
 }
 
-.w-100 {
+.w-100{
     width: 100%;
 }
 
-.w-70 {
+.w-70{
     width: 70%;
 }
 
-.debug {
+.w-30{
+    width: 30%;
+}
+
+.debug{
     border: 2px solid red; /* Aggiunge un bordo rosso */
     outline: 2px solid blue; /* Aggiunge un contorno blu */
     background-color: rgba(255, 0, 0, 0.3); /* Aggiunge uno sfondo rosso semitrasparente */
     box-shadow: 0 0 5px red; /* Aggiunge un'ombra rossa */
 }
 
-.m-auto {
+.m-auto{
     margin: auto;
 }
 
@@ -86,6 +86,7 @@ header nav ul li{
     position: fixed;
     height: 65px;
     z-index: 10;
+    background-color: var(--color-white);
 }
 
 .h-top ul{
@@ -117,7 +118,7 @@ header nav ul li{
 }
 
 #jumbo-btn{
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 
 .fa-arrow-down{
@@ -128,4 +129,13 @@ header nav ul li{
 .jumbo{
     position: relative;
     bottom: -70px;
+}
+
+/* bottoni  */
+.btn{
+    background-color: var(--background-color-btn);
+    color: var(--color-white);
+    cursor: pointer;
+    padding: 10px 13px;
+    border: 0;
 }
