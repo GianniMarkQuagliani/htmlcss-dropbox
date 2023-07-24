@@ -1,7 +1,40 @@
 /* RESET  */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* UTILIS  */
+
+.d-flex{
+    display: flex;
+}
+
+.flex-warp{
+    flex-wrap: wrap;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.debug {
+    border: 2px solid red; /* Aggiunge un bordo rosso */
+    outline: 2px solid blue; /* Aggiunge un contorno blu */
+    background-color: rgba(255, 0, 0, 0.3); /* Aggiunge uno sfondo rosso semitrasparente */
+    box-shadow: 0 0 5px red; /* Aggiunge un'ombra rossa */
 }
