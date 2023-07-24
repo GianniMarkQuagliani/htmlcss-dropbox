@@ -19,6 +19,12 @@ body{
     --background-color-btn: rgb(0, 95, 251);
 }
 
+.btn{
+    background-color: var(--background-color-btn);
+    color: var(--color-white);
+    cursor: pointer;
+    padding: 10px 13px;
+}
 
 /* UTILIS  */
 
@@ -42,9 +48,8 @@ body{
     align-items: center;
 }
 
-.btn{
-    padding: 10px 13px;
-    border: 0;
+.w-100 {
+    width: 100%;
 }
 
 .debug {
@@ -57,12 +62,12 @@ body{
 
 /* HEADER  */
 header nav ul li{
-    list-style: none;
     line-height: 65px;
     flex-shrink: 0;
 }
 
 .h-top{
+    position: fixed;
     height: 65px;
     z-index: 10;
 }
@@ -70,6 +75,11 @@ header nav ul li{
 .h-top ul{
     justify-content: space-around;
     flex-basis: calc(100vw / 3.5);
+    list-style-type: none;
+}
+
+.h-top ul li:hover{
+    border-bottom: 2px soli black;
 }
 
 #logo{
@@ -79,15 +89,4 @@ header nav ul li{
 a{
     text-decoration: none;
     color: var(--color-black);
-}
-
-#logo:hover, #nav-btn{
-    border: 10px;
-}
-
-#nav-btn{
-    background-color: var(--color-blue);
-    color: var(--color-white);
-    cursor: pointer;
-    
 }
