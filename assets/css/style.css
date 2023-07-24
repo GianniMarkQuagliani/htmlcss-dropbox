@@ -5,8 +5,18 @@
     box-sizing: border-box;
 }
 
+
+/* GENERAL  */
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --color-white: white;
+    --color-blue: blue;
+    --color-black: black;
+    --background-color: rgb(177, 207, 229);
+    --background-color-btn: rgb(0, 95, 251);
 }
 
 
