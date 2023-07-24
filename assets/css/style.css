@@ -42,6 +42,11 @@ body{
     align-items: center;
 }
 
+.btn{
+    padding: 10px 13px;
+    border: 0;
+}
+
 .debug {
     border: 2px solid red; /* Aggiunge un bordo rosso */
     outline: 2px solid blue; /* Aggiunge un contorno blu */
@@ -53,14 +58,36 @@ body{
 /* HEADER  */
 header nav ul li{
     list-style: none;
-    border-bottom: 1px solid white;
     line-height: 65px;
     flex-shrink: 0;
 }
+
+.h-top{
+    height: 65px;
+    z-index: 10;
+}
+
+.h-top ul{
+    justify-content: space-around;
+    flex-basis: calc(100vw / 3.5);
+}
+
 #logo{
     line-height: 0;
 }
 
 a{
     text-decoration: none;
+    color: var(--color-black);
+}
+
+#logo:hover, #nav-btn{
+    border: 10px;
+}
+
+#nav-btn{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    cursor: pointer;
+    
 }
