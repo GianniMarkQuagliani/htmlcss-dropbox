@@ -19,8 +19,6 @@ body{
     --background-color-btn: rgb(0, 95, 251);
 }
 
-
-
 a{
     text-decoration: none;
     color: var(--color-black);
@@ -57,6 +55,10 @@ a{
     width: 70%;
 }
 
+.w-60{
+    width: 60%;
+}
+
 .w-30{
     width: 30%;
 }
@@ -67,6 +69,13 @@ a{
 
 .m-top-60{
     margin-top: 60px;
+}
+
+.debug{
+    border: 2px solid red; /* Aggiunge un bordo rosso */
+    outline: 2px solid blue; /* Aggiunge un contorno blu */
+    background-color: rgba(255, 0, 0, 0.3); /* Aggiunge uno sfondo rosso semitrasparente */
+    box-shadow: 0 0 5px red; /* Aggiunge un'ombra rossa */
 }
 
 /* HEADER  */
@@ -110,11 +119,6 @@ header nav ul li{
     width: 90%;
 }
 
-#jumbo-btn{
-    margin: 30px 0;
-    display: inline-block;
-}
-
 .fa-arrow-down{
     margin-top: 35%;
     color: var(--color-black);
@@ -125,7 +129,7 @@ header nav ul li{
     bottom: -70px;
 }
 
-/* bottoni  */
+/* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
     color: var(--color-white);
@@ -134,4 +138,8 @@ header nav ul li{
     border: 0;
 }
 
+#jumbo-btn{
+    margin: 30px 0;
+    display: inline-block;
+}
 
