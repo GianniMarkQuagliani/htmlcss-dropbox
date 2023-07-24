@@ -129,6 +129,27 @@ header nav ul li{
     bottom: -70px;
 }
 
+/* MAIN  */
+/* PRIMA SEZIONE  */
+.head-section > h2{
+    margin: 14px 0 30px;
+}
+
+.head-section > div, span:not(p){
+    display: inline-block;
+}
+
+.head-section div, span{
+    vertical-align: middle;
+}
+
+.fatturazione{
+    padding: 25px;
+}
+
+#uncheck-btn, #check-btn{
+    border: 5px solid black;
+}
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
