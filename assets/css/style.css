@@ -124,3 +124,8 @@ header nav ul li{
     margin-top: 35%;
     color: var(--color-black);
 }
+
+.jumbo{
+    position: relative;
+    bottom: -70px;
+}
