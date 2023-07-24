@@ -48,3 +48,19 @@ body{
     background-color: rgba(255, 0, 0, 0.3); /* Aggiunge uno sfondo rosso semitrasparente */
     box-shadow: 0 0 5px red; /* Aggiunge un'ombra rossa */
 }
+
+
+/* HEADER  */
+header nav ul li{
+    list-style: none;
+    border-bottom: 1px solid white;
+    line-height: 65px;
+    flex-shrink: 0;
+}
+#logo{
+    line-height: 0;
+}
+
+a{
+    text-decoration: none;
+}
