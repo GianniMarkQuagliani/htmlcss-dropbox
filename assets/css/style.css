@@ -147,9 +147,7 @@ header nav ul li{
     padding: 25px;
 }
 
-#uncheck-btn, #check-btn{
-    border: 5px solid black;
-}
+
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
@@ -164,3 +162,17 @@ header nav ul li{
     display: inline-block;
 }
 
+#uncheck-btn, #check-btn{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#check-btn{
+    border: 5px solid var(--background-color-btn);
+}
+
+#uncheck-btn{
+    border: 5px solid var(--color-black);
+}
