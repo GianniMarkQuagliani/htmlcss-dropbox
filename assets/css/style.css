@@ -61,13 +61,6 @@ a{
     width: 30%;
 }
 
-.debug{
-    border: 2px solid red; /* Aggiunge un bordo rosso */
-    outline: 2px solid blue; /* Aggiunge un contorno blu */
-    background-color: rgba(255, 0, 0, 0.3); /* Aggiunge uno sfondo rosso semitrasparente */
-    box-shadow: 0 0 5px red; /* Aggiunge un'ombra rossa */
-}
-
 .m-auto{
     margin: auto;
 }
@@ -119,6 +112,7 @@ header nav ul li{
 
 #jumbo-btn{
     margin: 30px 0;
+    display: inline-block;
 }
 
 .fa-arrow-down{
@@ -136,6 +130,8 @@ header nav ul li{
     background-color: var(--background-color-btn);
     color: var(--color-white);
     cursor: pointer;
-    padding: 10px 13px;
+    padding: 10px 15px;
     border: 0;
 }
+
+
