@@ -184,6 +184,12 @@ header nav ul li{
     overflow-y: auto;
 }
 
+.t-price > div hr{
+    border: 0.5px solid lightgrey;
+    width: 20%;
+    margin: 50px 35px 50px;
+}
+
 .t-price{
     align-items: flex-start;
     padding: 10px;
@@ -211,6 +217,7 @@ header nav ul li{
     cursor: pointer;
     padding: 10px 15px;
     border: 0;
+    display: inline-block;
 }
 
 #jumbo-btn{
@@ -231,8 +238,4 @@ header nav ul li{
 
 #uncheck-btn{
     border: 5px solid var(--color-black);
-}
-
-.btn-price{
-    margin: 12px 25px;
 }
