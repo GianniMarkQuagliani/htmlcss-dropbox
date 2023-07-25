@@ -167,8 +167,13 @@ header nav ul li{
     padding: 0px 6px;
 }
 
-thead div{
-    margin-right: 100px;
+.t-price > div{
+    margin: 50px 35px 50px;
+    width: 20%;
+}
+
+.t-price{
+    font-weight: bold;
 }
 
 /* BOTTONI  */
