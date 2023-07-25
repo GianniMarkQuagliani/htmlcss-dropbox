@@ -102,6 +102,13 @@ h3{
     text-indent: -10px;
 }
 
+.pad-left-20{
+    padding-left: 20px;
+}
+
+.align-basel{
+    align-items: baseline;
+}
 
 
 /* HEADER  */
@@ -183,7 +190,7 @@ header nav ul li{
 
 .user-fa{
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid lightgrey;
 }
 
 .user-fa i{
@@ -195,7 +202,7 @@ header nav ul li{
 .t-price > div{
     width: calc(90% / 3);
     height: 160vh;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     overflow-y: auto;
 }
 
@@ -231,7 +238,16 @@ header nav ul li{
 }
 
 .team2 > div{
-    border: 1px solid black;
+    border: 1px solid lightgray;
+}
+
+#enterprise-info{
+    padding: 5px 20px 10px;
+    font-weight: bold;
+}
+
+#enterprise-info2{
+    padding: 50px 20px 10px;
 }
 
 
@@ -266,4 +282,8 @@ header nav ul li{
 
 .btn-price{
     margin: 30px 0px;
+}
+
+.btn-vendite{
+    padding: 12px 25px;
 }
