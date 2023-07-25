@@ -421,6 +421,42 @@ header nav ul li{
     border: 20px solid #ff6363;
 }
 
+#relief{
+    background-color: #d5001f;
+}
+  
+#relief:hover,
+#b1:active{
+    border: 20px solid #d14d61;
+}
+  
+#hearst{
+    background-color: #b4d0e7;
+}
+  
+#hearst:hover,
+#designit:active{
+    border: 20px solid #d8dde0;
+}
+  
+#planet{
+    background-color: #0d2481;
+}
+  
+#planet:hover,
+#designit:active{
+    border: 20px solid #293a7d;
+}
+  
+#outdoor{
+    background-color: #ffd830;
+}
+  
+#outdoor:hover,
+#outdoor:active{
+    border: 20px solid #f6de76;
+}
+
 .over{
     overflow-y: scroll;
 }
