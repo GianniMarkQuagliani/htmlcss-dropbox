@@ -107,10 +107,6 @@ header nav ul li{
     border-bottom: 2px soli black;
 }
 
-#logo{
-    line-height: 0;
-}
-
 .jumbotron{
     background-color: #b4d0e7;
 }
@@ -135,14 +131,8 @@ header nav ul li{
     bottom: -70px;
 }
 
-
-
-.user-fa{
-    border: 1px solid black;
-}
-
-.user-fa i{
-    padding: 0px 6px;
+.h-top ul li:hover{
+    border-bottom: 2px solid black;
 }
 
 /* MAIN  */
@@ -163,6 +153,23 @@ header nav ul li{
     padding: 25px;
 }
 
+.fatturazione:hover{
+    text-decoration: underline;
+}
+
+
+.user-fa{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.user-fa i{
+    padding: 0px 6px;
+}
+
+thead div{
+    margin-right: 100px;
+}
 
 /* BOTTONI  */
 .btn{
