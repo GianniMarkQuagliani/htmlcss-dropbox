@@ -254,6 +254,13 @@ header nav ul li{
 }
 
 
+
+
+/* SECONDA SEZIONE  */
+#s2-img{
+    background-image: url(/assets/img/partner.png);
+    background-size: cover;
+  }
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
