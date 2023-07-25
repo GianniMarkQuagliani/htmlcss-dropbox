@@ -28,6 +28,11 @@ li{
     list-style-type: none;
 }
 
+h3{
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
 /* UTILIS  */
 
 .d-flex{
@@ -74,9 +79,14 @@ li{
     margin-top: 60px;
 }
 
-.pad-top-bottom-15{
-    padding: 130px 0;
+.m-top-30{
+    margin-top: 30px;
 }
+
+.pad-top-bottom-15{
+    padding: 15px 0;
+}
+
 .debug{
     border: 2px solid red; /* Aggiunge un bordo rosso */
     outline: 2px solid blue; /* Aggiunge un contorno blu */
@@ -168,14 +178,23 @@ header nav ul li{
 }
 
 .t-price > div{
-    margin: 50px 35px 50px;
-    width: 20%;
+    width: calc(90% / 3);
+    height: 160vh;
+    border: 1px solid black;
+    overflow-y: auto;
 }
 
 .t-price{
-    font-weight: bold;
+    align-items: flex-start;
+    padding: 10px;
 }
 
+.text-indent-13{
+    text-indent: -13px;
+}
+.text-indent-10{
+    text-indent: -10px;
+}
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
