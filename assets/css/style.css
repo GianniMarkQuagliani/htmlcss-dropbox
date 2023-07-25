@@ -380,13 +380,6 @@ header nav ul li{
 
 
 /* Quarta Sezione */
-.over{
-    overflow-y: scroll;
-}
-  
-.over div p{
-    padding: 20px 40px;
-}
 
 .img-s4{
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(249deg) brightness(105%) contrast(103%);
@@ -396,7 +389,8 @@ header nav ul li{
     background-color: #a2d39b;
 }
   
-#designit:hover, #designit:active{
+#designit:hover, 
+#designit:active{
     border: 20px solid #d1e9cd;
 }
   
@@ -404,7 +398,8 @@ header nav ul li{
     background-color: #61082b;
 }
   
-#university:hover, #designit:active{
+#university:hover, 
+#designit:active{
     border: 20px solid #5d2c3f;
 }
   
@@ -412,7 +407,8 @@ header nav ul li{
     background-color: #0093ce;
 }
   
-#florida:hover, #designit:active {
+#florida:hover, 
+#designit:active {
     border: 20px solid #619fb8;
 }
   
@@ -420,10 +416,28 @@ header nav ul li{
     background-color: #ff1c1c;
 }
   
-#topps:hover, #designit:active {
+#topps:hover, 
+#designit:active {
     border: 20px solid #ff6363;
 }
 
+.over{
+    overflow-y: scroll;
+}
+  
+.over div p{
+    padding: 20px 40px;
+}
+
+.img-center{
+    margin: 70px 40px;
+}
+
+#container-center hr{
+    margin: 10px 40px;
+    border: 0.5px solid lightgray;
+    width: 20%;
+}
 
 /* BOTTONI  */
 /* Stile per i pulsanti generici */
