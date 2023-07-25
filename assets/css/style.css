@@ -261,7 +261,7 @@ header nav ul li{
 }
 
 #uncheck-btn{
-    border: 5px solid var(--color-black);
+    border: 2px solid lightgray;
 }
 
 .btn-price{
