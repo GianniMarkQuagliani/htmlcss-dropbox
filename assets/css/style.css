@@ -137,6 +137,24 @@ h3{
     color: rgb(104, 104, 104); /* Colore del testo grigio scuro */
 }
 
+.calc-3{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.calc-2{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* HEADER  */
 /* Stile per gli elementi <li> all'interno del menu di navigazione dell'header */
 header nav ul li{
@@ -341,7 +359,6 @@ header nav ul li{
 /* Stile per i titoli della sezione tre */
 #third-section h2{
     padding: 80px 0; /* Aggiunge spazio sopra e sotto il titolo */
-    text-align: center; /* Centra il testo del titolo orizzontalmente */
 }
 
 /* Stile per il primo titolo della sezione tre */
@@ -355,6 +372,57 @@ header nav ul li{
     display: inline-block; /* Imposta il link come elemento "inline-block" per consentire il posizionamento orizzontale */
 }
 
+#link-s3{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+/* Quarta Sezione */
+.over{
+    overflow-y: scroll;
+}
+  
+.over div p{
+    padding: 20px 40px;
+}
+
+.img-s4{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(249deg) brightness(105%) contrast(103%);
+}
+
+#designit{
+    background-color: #a2d39b;
+}
+  
+#designit:hover, #designit:active{
+    border: 20px solid #d1e9cd;
+}
+  
+#university{
+    background-color: #61082b;
+}
+  
+#university:hover, #designit:active{
+    border: 20px solid #5d2c3f;
+}
+  
+#florida{
+    background-color: #0093ce;
+}
+  
+#florida:hover, #designit:active {
+    border: 20px solid #619fb8;
+}
+  
+#topps{
+    background-color: #ff1c1c;
+}
+  
+#topps:hover, #designit:active {
+    border: 20px solid #ff6363;
+}
 
 
 /* BOTTONI  */
