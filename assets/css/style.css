@@ -6,6 +6,7 @@
 }
 
 
+
 /* GENERAL  */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -33,8 +34,10 @@ h3{
     font-weight: bold;
 }
 
-/* UTILIS  */
 
+
+
+/* UTILIS  */
 .d-flex{
     display: flex;
 }
@@ -87,12 +90,19 @@ h3{
     padding: 15px 0;
 }
 
-.debug{
-    border: 2px solid red; /* Aggiunge un bordo rosso */
-    outline: 2px solid blue; /* Aggiunge un contorno blu */
-    background-color: rgba(255, 0, 0, 0.3); /* Aggiunge uno sfondo rosso semitrasparente */
-    box-shadow: 0 0 5px red; /* Aggiunge un'ombra rossa */
+.inline-block{
+    display: inline-block;
 }
+
+.text-indent-13{
+    text-indent: -13px;
+}
+
+.text-indent-10{
+    text-indent: -10px;
+}
+
+
 
 /* HEADER  */
 header nav ul li{
@@ -145,6 +155,8 @@ header nav ul li{
     border-bottom: 2px solid black;
 }
 
+
+
 /* MAIN  */
 /* PRIMA SEZIONE  */
 .head-section > h2{
@@ -168,6 +180,7 @@ header nav ul li{
 }
 
 
+
 .user-fa{
     text-align: center;
     border: 1px solid black;
@@ -176,6 +189,8 @@ header nav ul li{
 .user-fa i{
     padding: 0px 6px;
 }
+
+
 
 .t-price > div{
     width: calc(90% / 3);
@@ -195,12 +210,10 @@ header nav ul li{
     padding: 10px;
 }
 
-.text-indent-13{
-    text-indent: -13px;
-}
-.text-indent-10{
-    text-indent: -10px;
-}
+
+
+
+
 .acquista-ora{
     color: blue;
     text-decoration:underline;
@@ -210,6 +223,18 @@ header nav ul li{
 .fa-check{
     color: var(--background-color-btn);
 }
+
+
+
+.team2{
+    padding-top: 45px;
+}
+
+.team2 > div{
+    border: 1px solid black;
+}
+
+
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
@@ -217,7 +242,6 @@ header nav ul li{
     cursor: pointer;
     padding: 10px 15px;
     border: 0;
-    display: inline-block;
 }
 
 #jumbo-btn{
@@ -238,4 +262,8 @@ header nav ul li{
 
 #uncheck-btn{
     border: 5px solid var(--color-black);
+}
+
+.btn-price{
+    margin: 30px 0px;
 }
