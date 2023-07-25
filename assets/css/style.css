@@ -273,6 +273,10 @@ header nav ul li{
     align-items: center;
     padding: 100px 0px 80px;
 }
+
+#second-section div .w-40{
+    padding: 20px 60px 20px 40px;
+}
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
