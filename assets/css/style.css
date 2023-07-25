@@ -260,7 +260,19 @@ header nav ul li{
 #s2-img{
     background-image: url(/assets/img/partner.png);
     background-size: cover;
-  }
+}
+
+
+#second-section > div{
+    height: 50vh;
+    width: calc(100vw / 2);
+    margin-left: 30px;
+}
+
+#second-section{
+    align-items: center;
+    padding: 100px 0px 80px;
+}
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
