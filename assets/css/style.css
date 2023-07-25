@@ -195,6 +195,15 @@ header nav ul li{
 .text-indent-10{
     text-indent: -10px;
 }
+.acquista-ora{
+    color: blue;
+    text-decoration:underline;
+    display: inline-block;
+}
+
+.fa-check{
+    color: var(--background-color-btn);
+}
 /* BOTTONI  */
 .btn{
     background-color: var(--background-color-btn);
