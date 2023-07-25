@@ -223,3 +223,7 @@ header nav ul li{
 #uncheck-btn{
     border: 5px solid var(--color-black);
 }
+
+.btn-price{
+    margin: 12px 25px;
+}
