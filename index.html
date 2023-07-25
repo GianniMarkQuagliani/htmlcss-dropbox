@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadati della pagina -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento al file di stile CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
  
-    <!-- Google Font  -->
+     <!-- Collegamento al font di Google "Open Sans" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     
+    <!-- Collegamento alla libreria di icone Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <!-- Titolo della pagina -->
     <title>Dropbox</title>
 </head>
 <body>
@@ -20,6 +25,7 @@
     <header>
         <!-- Inizio top-bar  -->
         <nav class="h-top d-flex justify-content-between align-center w-100"> <!-- Ho usato le classi CSS h-top, d-flex, justify-content-between e align-center per rendere l'elemento <nav> un flexbox, centrarlo verticalmente, allineare i suoi contenuti al centro e distribuirli uniformemente. -->
+            <!-- Logo e menu superiore -->
             <ul class="d-flex align-center">
                 <li id="logo">
                     <a href="#"><img src="assets/img/logo-small.png" alt="logo dropbox"></a>
@@ -29,6 +35,7 @@
                 <li><a href="#">Piani e prezzi</a></li>
             </ul>
 
+            <!-- Altri link nel menu superiore -->
             <ul class="d-flex">
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
@@ -66,6 +73,7 @@
     <main>
         <!-- Prima sezione  -->
         <section class="m-auto w-60">
+            <!-- Intestazione e radio button -->
             <div class="head-section">
                 <h2>Trova il piano business che fa per te</h2>
                 <!-- radio buttom  -->
@@ -80,7 +88,7 @@
             </div>
             <!-- Tabelle e Prezzi  -->
             <div class="t-price d-flex justify-content-between">
-                <div> <!-- SINGOLO -->
+                <div> <!-- Piano "Singolo" -->
                     <div class="pad-top-bottom-15 user-fa">
                         <i class="fa-solid fa-user"></i>Singolo
                     </div>
@@ -108,9 +116,10 @@
                         <p class="t-ind-10 pad-top-bottom-15"><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</p>
                         <p class="t-ind-10 pad-top-bottom-15"><i class="fa-solid fa-check"></i> Cartelle Offline su dispositivi mobili</p>
                     </div>
-                </div> <!-- /SINGOLO -->
+                </div>
 
-                <div> <!-- TEAM -->
+                <!-- Piano "Team" -->
+                <div>
                     <div class="pad-top-bottom-15 user-fa">
                         <i class="fa-solid fa-users"></i>Team
                     </div>
@@ -141,9 +150,10 @@
                         <p class="t-ind-10 pad-top-bottom-15"><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi mombri del team</p>
                         <p class="t-ind-10 pad-top-bottom-15"><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</p>
                     </div>
-                </div> <!-- /TEAM -->
+                </div>
 
-                <div> <!-- AZIENDA -->
+                <!-- Piano "Azienda" -->
+                <div>
                     <div class="pad-top-bottom-15 user-fa">
                         <i class="fa-solid fa-building"></i>Azienda
                     </div>
@@ -172,9 +182,10 @@
                         <p class="t-ind-10 pad-top-bottom-15"><i class="fa-solid fa-check"></i> Servizio assitenza 24/h</p>
                         <p class="t-ind-10 pad-top-bottom-15"><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</p>
                     </div>
-                </div> <!-- /AZIENDA -->
+                </div>
             </div>
 
+            <!-- Sezione aggiuntiva "Team" -->
             <div class="team2">
                 <div class="w-100">
                     <div class="pad-top-bottom-15 user-fa">
@@ -198,6 +209,7 @@
 
         <!-- Seconda sezione  -->
         <section id="second-section" class="d-flex m-auto w-60">
+            <!-- Contenuto della sezione "Seconda sezione" -->
             <div id="s2-img" class="w-60"></div>
             <div class="w-40">
                 <h3>Entra in contatto con un partner Dropbox</h3>
@@ -209,8 +221,9 @@
 
          <!-- Terza sezione  -->
          <section id="third-section" class="m-auto w-60">
+            <!-- Contenuto della sezione "Terza sezione" -->
             <h2>Esegui più operazioni con Dropbox Business</h2>
-            <div id="container-s3" class="d-flex flex-warp justify-content-between">
+            <div id="container-s3">
                 <div>
                     <img class="w-100" src="assets/img/business-feature-switching-tools.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
@@ -218,31 +231,31 @@
                 </div>
                 
                 <div>
-                    <img class="w-100" src="assets/img/business-feature-switching-tools.png" alt="">
+                    <img class="w-100" src="assets/img/business-feature-send-files-it.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con uno solo strumento. Crea, modifica e condividi contenuti colud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
 
                 <div>
-                    <img class="w-100" src="assets/img/business-feature-switching-tools.png" alt="">
+                    <img class="w-100" src="assets/img/business-feature-coordinate-it.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con uno solo strumento. Crea, modifica e condividi contenuti colud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
 
                 <div>
-                    <img class="w-100" src="assets/img/business-feature-switching-tools.png" alt="">
+                    <img class="w-100" src="assets/img/business-feature-integrations-it.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con uno solo strumento. Crea, modifica e condividi contenuti colud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
 
                 <div>
-                    <img class="w-100" src="assets/img/business-feature-switching-tools.png" alt="">
+                    <img class="w-100" src="assets/img/business-feature-multi-device.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con uno solo strumento. Crea, modifica e condividi contenuti colud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
 
                 <div>
-                    <img class="w-100" src="assets/img/business-feature-switching-tools.png" alt="">
+                    <img class="w-100" src="assets/img/bui" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
                     <p>Porta a termine le attività quotidiane con uno solo strumento. Crea, modifica e condividi contenuti colud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
@@ -251,8 +264,10 @@
             <a href="#">Scopri di più sui nostri clienti</a>
 
          </section>
-    </main> <!-- Fine Main  -->
+    </main> 
+    <!-- Fine Main  -->
 
+    <!-- Footer -->
     <footer></footer>
 
 </body>

@@ -9,323 +9,404 @@
 
 /* GENERAL  */
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Stile di base per il corpo del documento */
 }
 
+/* Definizione di variabili CSS personalizzate */
 :root{
-    --color-white: white;
-    --color-blue: blue;
-    --color-black: black;
-    --background-color: rgb(177, 207, 229);
-    --background-color-btn: rgb(0, 95, 251);
+    --color-white: white; /* Variabile per il colore bianco */
+    --color-blue: blue; /* Variabile per il colore blu */
+    --color-black: black; /* Variabile per il colore nero */
+    --background-color: rgb(177, 207, 229); /* Variabile per il colore di sfondo */
+    --background-color-btn: rgb(0, 95, 251); /* Variabile per il colore di sfondo dei pulsanti */
 }
 
+/* Stile per i link */
 a{
-    text-decoration: none;
-    color: var(--color-black);
+    text-decoration: none; /* Rimuove la sottolineatura dai link */
+    color: var(--color-black); /* Colore del testo per i link utilizzando la variabile --color-black */
 }
 
+/* Stile per gli elementi di elenco */
 li{
-    list-style-type: none;
+    list-style-type: none; /* Rimuove i punti di elenco predefiniti */
 }
 
+/* Stile per gli elementi h3 */
 h3{
-    padding: 20px 0px;
-    font-weight: bold;
+    padding: 20px 0px; /* Spaziatura interna superiore e inferiore, nessuna spaziatura laterale */
+    font-weight: bold; /* Testo in grassetto */
 }
 
 
 
 
 /* UTILIS  */
+/* Stile per l'elemento con classe .d-flex */
 .d-flex{
-    display: flex;
+    display: flex; /* Imposta il contenitore come flexbox */
 }
 
+/* Stile per l'elemento con classe .flex-wrap */
 .flex-warp{
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Imposta il contenitore flexbox con righe che si avvolgono quando lo spazio è insufficiente */
 }
 
+/* Stile per l'elemento con classe .justify-content-center */
 .justify-content-center{
-    justify-content: center;
+    justify-content: center; /* Allinea gli elementi del contenitore flexbox al centro orizzontalmente */
 }
 
+/* Stile per l'elemento con classe .justify-content-between */
 .justify-content-between{
-    justify-content: space-between;
+    justify-content: space-between;  /* Allinea gli elementi del contenitore flexbox distribuiti uniformemente con spazi vuoti tra di essi */
 }
 
+/* Stile per l'elemento con classe .align-center */
 .align-center{
-    align-items: center;
+    align-items: center; /* Allinea gli elementi del contenitore flexbox al centro verticalmente */
 }
 
+/* Stile per l'elemento con classe .w-100 */
 .w-100{
-    width: 100%;
+    width: 100%; /* Imposta la larghezza al 100% */
 }
 
+/* Stile per l'elemento con classe .w-70 */
 .w-70{
-    width: 70%;
+    width: 70%; /* Imposta la larghezza al 70% */
 }
 
+/* Stile per l'elemento con classe .w-60 */
 .w-60{
-    width: 60%;
+    width: 60%; /* Imposta la larghezza al 60% */
 }
 
+/* Stile per l'elemento con classe .w-30 */
 .w-30{
-    width: 30%;
+    width: 30%; /* Imposta la larghezza al 30% */
 }
 
+/* Stile per l'elemento con classe .m-auto */
 .m-auto{
-    margin: auto;
+    margin: auto; /* Imposta il margine automatico per centrare l'elemento orizzontalmente */
 }
 
+/* Stile per l'elemento con classe .m-top-60 */
 .m-top-60{
-    margin-top: 60px;
+    margin-top: 60px; /* Spaziatura esterna superiore di 60px */
 }
 
+/* Stile per l'elemento con classe .m-top-30 */
 .m-top-30{
-    margin-top: 30px;
+    margin-top: 30px; /* Spaziatura esterna superiore di 30px */
 }
 
+/* Stile per l'elemento con classe .pad-top-bottom-15 */
 .pad-top-bottom-15{
-    padding: 15px 0;
+    padding: 15px 0; /* Spaziatura interna di 15px sopra e sotto */
 }
 
+/* Stile per l'elemento con classe .inline-block */
 .inline-block{
-    display: inline-block;
+    display: inline-block; /* Imposta l'elemento come blocco inline */
 }
 
+/* Stile per l'elemento con classe .text-indent-13 */
 .text-indent-13{
-    text-indent: -13px;
+    text-indent: -13px; /* Imposta la rientranza del testo a -13px (sposta il testo verso sinistra) */
 }
 
+/* Stile per l'elemento con classe .text-indent-10 */
 .text-indent-10{
-    text-indent: -10px;
+    text-indent: -10px; /* Imposta la rientranza del testo a -10px (sposta il testo verso sinistra) */
 }
 
+/* Stile per l'elemento con classe .pad-left-20 */
 .pad-left-20{
-    padding-left: 20px;
+    padding-left: 20px; /* Spaziatura interna a sinistra di 20px */
 }
 
+/* Stile per l'elemento con classe .align-basel */
 .align-basel{
-    align-items: baseline;
+    align-items: baseline; /* Allinea gli elementi del contenitore al livello della linea di base del testo */
 }
 
+/* Stile per l'elemento con classe .c-grey */
 .c-grey{
-    color: rgb(104, 104, 104);
+    color: rgb(104, 104, 104); /* Colore del testo grigio scuro */
 }
 
 /* HEADER  */
+/* Stile per gli elementi <li> all'interno del menu di navigazione dell'header */
 header nav ul li{
-    line-height: 65px;
-    flex-shrink: 0;
+    line-height: 65px; /* Altezza della riga del testo all'interno degli elementi <li> */
+    flex-shrink: 0; /* Impedisce agli elementi di ridursi quando lo spazio è insufficiente */
 }
 
+/* Stile per l'elemento con classe .h-top */
 .h-top{
-    position: fixed;
-    height: 65px;
-    z-index: 10;
-    background-color: var(--color-white);
+    position: fixed; /* Posizione fissa per mantenere l'elemento nella stessa posizione durante lo scroll */
+    height: 65px; /* Altezza dell'elemento */
+    z-index: 10; /* Ordine di sovrapposizione, controlla quale elemento viene visualizzato sopra gli altri */
+    background-color: var(--color-white); /* Colore di sfondo dell'elemento utilizzando la variabile --color-white */
 }
 
+/* Stile per gli elementi <ul> all'interno dell'elemento con classe .h-top */
 .h-top ul{
-    justify-content: space-around;
-    flex-basis: calc(100vw / 3.5);
-    list-style-type: none;
+    justify-content: space-around; /* Allinea gli elementi del menu di navigazione in modo uniformemente distribuito */
+    flex-basis: calc(100vw / 3.5); /* Imposta la dimensione di base per il menu di navigazione */
+    list-style-type: none; /* Rimuove i punti di elenco predefiniti dal menu di navigazione */
 }
 
+/* Stile per gli elementi <li> all'interno dell'elemento con classe .h-top quando il puntatore del mouse è sopra di essi */
 .h-top ul li:hover{
-    border-bottom: 2px soli black;
+    border-bottom: 2px soli black; /* Aggiunge una riga inferiore di 2px di spessore con il colore nero quando il puntatore del mouse è sopra gli elementi del menu di navigazione */
 }
 
+/* Stile per l'elemento con classe .jumbotron */
 .jumbotron{
-    background-color: #b4d0e7;
+    background-color: #b4d0e7; /* Colore di sfondo per l'elemento con classe .jumbotron */
 }
 
+/* Stile per l'elemento con classe .h-bottom */
 .h-bottom{
-    padding-top: 65px;
+    padding-top: 65px; /* Spaziatura interna superiore dell'elemento */
 }
 
+/* Stile per gli elementi <h1> all'interno dell'elemento con classe .h-bottom */
 .h-bottom h1{
-    padding-top: 50px;
-    font-size: 65px;
-    width: 90%;
+    padding-top: 50px; /* Spaziatura interna superiore dell'elemento <h1> */
+    font-size: 65px; /* Dimensione del testo per gli elementi <h1> */
+    width: 90%; /* Larghezza dell'elemento <h1> al 90% */
 }
 
+/* Stile per l'elemento con classe .fa-arrow-down */
 .fa-arrow-down{
-    margin-top: 35%;
-    color: var(--color-black);
+    margin-top: 35%; /* Margine superiore dell'elemento */
+    color: var(--color-black); /* Colore del testo utilizzando la variabile --color-black */
 }
 
+/* Stile per l'elemento con classe .jumbo */
 .jumbo{
-    position: relative;
-    bottom: -70px;
+    position: relative; /* Posizione relativa per posizionare l'elemento rispetto alla sua posizione originale */
+    bottom: -70px; /* Sposta l'elemento verso il basso di 70px rispetto alla sua posizione originale */
 }
 
+/* Stile per gli elementi <li> all'interno dell'elemento con classe .h-top quando il puntatore del mouse è sopra di essi */
 .h-top ul li:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid black; /* Aggiunge una riga inferiore di 2px di spessore con il colore nero quando il puntatore del mouse è sopra gli elementi del menu di navigazione */
 }
 
 
 
 /* MAIN  */
 /* PRIMA SEZIONE  */
+/* Stile per l'elemento h2 all'interno della classe .head-section */
 .head-section > h2{
-    margin: 14px 0 30px;
+    margin: 14px 0 30px; /* Spaziatura esterna superiore e inferiore, nessuna spaziatura laterale */
 }
 
+/* Stile per gli elementi div e span all'interno della classe .head-section eccetto gli elementi p */
 .head-section > div, span:not(p){
-    display: inline-block;
+    display: inline-block; /* Imposta gli elementi come blocchi inline, affiancati orizzontalmente */
 }
 
+/* Stile per gli elementi div e span all'interno della classe .head-section */
 .head-section div, span{
-    vertical-align: middle;
+    vertical-align: middle; /* Sottolinea il testo quando il mouse è sopra l'elemento */
 }
 
+/* Stile per l'elemento con classe .fatturazione */
 .fatturazione{
-    padding: 25px;
+    padding: 25px; /* Spaziatura interna del contenitore */
 }
 
+/* Stile per l'elemento con classe .fatturazione quando il mouse è sopra di esso */
 .fatturazione:hover{
-    text-decoration: underline;
+    text-decoration: underline; /* Sottolinea il testo quando il mouse è sopra l'elemento */
 }
 
 
-
+/* Stile per l'elemento con classe .user-fa */
 .user-fa{
-    text-align: center;
-    border-bottom: 1px solid lightgrey;
+    text-align: center; /* Allinea il testo al centro all'interno del contenitore */
+    border-bottom: 1px solid lightgrey; /* Linea inferiore con bordo grigio chiaro */
 }
 
+/* Stile per l'elemento <i> all'interno dell'elemento con classe .user-fa */
 .user-fa i{
-    padding: 0px 6px;
+    padding: 0px 6px; /* Spaziatura interna del contenitore dell'icona */
 }
 
-
-
+/* Stile per i contenitori all'interno dell'elemento con classe .t-price */
 .t-price > div{
-    width: calc(90% / 3);
-    height: 160vh;
-    border: 1px solid lightgray;
-    overflow-y: auto;
+    width: calc(90% / 3); /* Larghezza calcolata per occupare un terzo dello spazio disponibile */
+    height: 160vh; /* Altezza fissa del contenitore */
+    border: 1px solid lightgray; /* Bordo con colore grigio chiaro */
+    overflow-y: auto; /* Abilita la barra di scorrimento verticale se il contenuto è più grande del contenitore */
 }
 
+/* Stile per la linea orizzontale <hr> all'interno dell'elemento con classe .t-price */
 .t-price > div hr{
-    border: 0.5px solid lightgrey;
-    width: 20%;
-    margin: 50px 35px 50px;
+    border: 0.5px solid lightgrey; /* Linea orizzontale con bordo grigio chiaro */
+    width: 20%; /* Larghezza della linea orizzontale */
+    margin: 50px 35px 50px; /* Spaziatura esterna superiore e inferiore, spaziatura laterale */
 }
 
+/* Stile per l'elemento con classe .t-price */
 .t-price{
-    align-items: flex-start;
-    padding: 10px;
+    align-items: flex-start; /* Allinea gli elementi flessibili all'inizio del contenitore */
+    padding: 10px; /* Spaziatura interna del contenitore */
 }
 
-
-
-
-
+/* Stile per l'elemento con classe .acquista-ora */
 .acquista-ora{
-    color: blue;
-    text-decoration:underline;
-    display: inline-block;
+    color: blue; /* Colore del testo blu */
+    text-decoration:underline; /* Sottolinea il testo */
+    display: inline-block; /* Imposta l'elemento come blocco inline */
 }
 
+/* Stile per l'elemento con classe .team2 */
 .fa-check{
-    color: var(--background-color-btn);
+    color: var(--background-color-btn); /* Spaziatura esterna superiore */
 }
 
-
-
+/* Stile per i contenitori all'interno dell'elemento con classe .team2 */
 .team2{
-    padding-top: 45px;
+    padding-top: 45px; /* Spaziatura esterna superiore */
 }
 
+/* Stile per i contenitori all'interno dell'elemento con classe .team2 */
 .team2 > div{
-    border: 1px solid lightgray;
+    border: 1px solid lightgray; /* Bordo con colore grigio chiaro */
 }
 
+/* Stile per l'elemento con id #enterprise-info */
 #enterprise-info{
-    padding: 5px 20px 10px;
-    font-weight: bold;
+    padding: 5px 20px 10px; /* Spaziatura interna del contenitore */
+    font-weight: bold; /* Testo in grassetto */
 }
 
+/* Stile per l'elemento con id #enterprise-info2 */
 #enterprise-info2{
-    padding: 50px 20px 10px;
+    padding: 50px 20px 10px; /* Spaziatura interna del contenitore */
 }
 
 
 
 
 /* SECONDA SEZIONE  */
+/* Sfondo dell'immagine nella seconda sezione */
 #s2-img{
     background-image: url(/assets/img/partner.png);
-    background-size: cover;
+    background-size: cover; /* Imposta l'immagine di sfondo per coprire tutto lo spazio disponibile */
 }
 
-
+/* Stile per i contenitori nella seconda sezione */
 #second-section > div{
-    height: 50vh;
-    width: calc(100vw / 2);
-    margin-left: 30px;
+    height: 50vh; /* Altezza fissa del contenitore */
+    width: calc(100vw / 2); /* Larghezza calcolata come metà della larghezza della finestra del browser */
+    margin-left: 30px; /* Margine sinistro per separare i contenitori */
 }
 
+/* Stile per la sezione complessiva nella seconda sezione */
 #second-section{
-    align-items: center;
-    padding: 100px 0px 80px;
+    align-items: center; /* Centra gli elementi verticalmente */
+    padding: 100px 0px 80px; /* Spaziatura interna della sezione (padding) */
 }
 
+/* Stile per i contenitori nella seconda sezione, classe .w-40 */
 #second-section div .w-40{
-    padding: 20px 60px 20px 40px;
+    padding: 20px 60px 20px 40px; /* Spaziatura interna del contenitore */
 }
 
 
 
 /* TERZA SEZIONE  */
+/* Stile per il contenitore delle immagini nella sezione tre */
 #container-s3{
-    width: calc(90% / 3);
-    margin: 30px 0;
+    display: flex; /* Abilita il flexbox per allineare gli elementi orizzontalmente */
+    flex-wrap: wrap; /* Consente il wrapping degli elementi quando non ci sono spazi sufficienti */
+    justify-content: space-between; /* Spaziatura tra le immagini per allinearle uniformemente */
+    width: 100%;
 }
+
+/* Stile per ogni contenitore delle immagini nella sezione tre */
+#container-s3 > div{
+    width: calc(30% - 20px); /* Imposta la larghezza di ogni contenitore, con margine tra le immagini */
+    margin-bottom: 40px; /* Spazio tra le righe, separa i contenitori verticalmente */
+}
+
+/* Stile per i titoli della sezione tre */
+#third-section h2{
+    padding: 80px 0; /* Aggiunge spazio sopra e sotto il titolo */
+    text-align: center; /* Centra il testo del titolo orizzontalmente */
+}
+
+/* Stile per il primo titolo della sezione tre */
+#third-section h2:first-child{
+    text-align: center; /* Centra il testo del primo titolo orizzontalmente */
+}
+
+/* Stile per il link nella sezione tre */
+#third-section a{
+    margin: 0 0 100px; /* Aggiunge margine in basso al link per separarlo dal contenuto successivo */
+    display: inline-block; /* Imposta il link come elemento "inline-block" per consentire il posizionamento orizzontale */
+}
+
+
+
 /* BOTTONI  */
+/* Stile per i pulsanti generici */
 .btn{
-    background-color: var(--background-color-btn);
-    color: var(--color-white);
-    cursor: pointer;
-    padding: 10px 15px;
-    border: 0;
-    text-align: center;
+    background-color: var(--background-color-btn); /* Imposta il colore di sfondo del pulsante */
+    color: var(--color-white); /* Imposta il colore del testo del pulsante */
+    cursor: pointer; /* Cambia il cursore del mouse quando il pulsante è selezionabile */
+    padding: 10px 15px; /* Aggiunge spaziatura interna al pulsante */
+    border: 0; /* Rimuove il bordo del pulsante */
+    text-align: center; /* Centra il testo del pulsante orizzontalmente */
 }
 
+/* Stile per il pulsante nel jumbotron */
 #jumbo-btn{
-    margin: 30px 0;
-    display: inline-block;
+    margin: 30px 0; /* Aggiunge margine sopra e sotto il pulsante */
+    display: inline-block; /* Imposta il pulsante come elemento "inline-block" per consentire il posizionamento orizzontale */
 }
 
+/* Stile per i pulsanti di check/uncheck */
 #uncheck-btn, #check-btn{
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    cursor: pointer;
+    border-radius: 50%; /* Imposta il bordo del pulsante come circolare */
+    height: 20px; /* Imposta l'altezza del pulsante */
+    width: 20px; /* Imposta la larghezza del pulsante */
+    cursor: pointer; /* Cambia il cursore del mouse quando il pulsante è selezionabile */
 }
 
+/* Stile per il pulsante di check */
 #check-btn{
-    border: 5px solid var(--background-color-btn);
+    border: 5px solid var(--background-color-btn); /* Imposta il bordo del pulsante di check */
 }
 
+
+/* Stile per il pulsante di uncheck */
 #uncheck-btn{
-    border: 2px solid lightgray;
+    border: 2px solid lightgray; /* Imposta il bordo del pulsante di uncheck */
 }
 
+/* Stile per i pulsanti del prezzo */
 .btn-price{
-    margin: 30px 0px;
+    margin: 30px 0px; /* Aggiunge margine sopra e sotto il pulsante */
 }
 
+/* Stile per i pulsanti delle vendite */
 .btn-vendite{
-    padding: 12px 25px;
+    padding: 12px 25px; /* Aggiunge spaziatura interna al pulsante delle vendite */
 }
 
+/* Stile per il pulsante nella sezione due */
 #btn-s2{
-    margin: 40px 0px;
-    border: 1px solid black;
-    color: black;
-    background-color: var(--color-white);
+    margin: 40px 0px; /* Aggiunge margine sopra e sotto il pulsante */
+    border: 1px solid black; /* Imposta il bordo del pulsante */
+    color: black; /* Imposta il colore del testo del pulsante */
+    background-color: var(--color-white); /* Imposta il colore di sfondo del pulsante */
 }
