@@ -181,6 +181,7 @@ h3{
     padding: 40px 0; /* Aggiunge spaziatura interna sopra e sotto l'elemento */
 }
 
+/* Stile per il testo con colore bianco */
 .white{
     color: var(--color-white);
 }
@@ -295,7 +296,7 @@ header nav ul li{
 /* Stile per i contenitori all'interno dell'elemento con classe .t-price */
 .t-price > div{
     width: calc(90% / 3); /* Larghezza calcolata per occupare un terzo dello spazio disponibile */
-    height: 160vh; /* Altezza fissa del contenitore */
+    height: 100vh; /* Altezza fissa del contenitore */
     border: 1px solid lightgray; /* Bordo con colore grigio chiaro */
     overflow-y: auto; /* Abilita la barra di scorrimento verticale se il contenuto è più grande del contenitore */
 }
@@ -565,21 +566,42 @@ header nav ul li{
 
 
 /* FOOTER  */
+/* Stile per il footer */
 footer{
-    background-color: var(--color-black);
+    background-color: var(--color-black); /* Imposta il colore di sfondo del footer utilizzando la variabile --color-black. */
 }
+
+/* Stile per gli elementi h3 all'interno del footer */
 footer h3{
-    padding: 20px 0;
+    padding: 20px 0; /* Aggiunge spaziatura interna sopra e sotto di 20px. */
 }
 
-.container-footer-2 ul li{
-    padding: 8px 0;
+.container-footer-2 ul li{ /* Stile per gli elementi <li> all'interno del footer */
+    padding: 8px 0; /* Aggiunge spaziatura interna sopra e sotto di 8px. */
 }
 
+/* Stile per i link all'interno del footer quando il puntatore del mouse è sopra di essi */
 .container-footer-2 a:hover{
-    text-decoration: underline;
+    text-decoration: underline; /* Aggiunge una sottolineatura al testo quando il mouse è sopra i link. */
 }
 
+/* Stile per l'icona all'interno del footer */
+.container-footer i{
+    padding: 0 5px; /* Aggiunge spaziatura interna a sinistra e a destra di 5px. */
+}
+
+/* Stile per la linea orizzontale <hr> all'interno del footer */
+/* Aggiunge una linea orizzontale con uno spessore di 0.5px. Imposta la larghezza della linea al 10% del contenitore e aggiunge una spaziatura esterna superiore del 8% e inferiore del 5%.  */
+.container-footer hr{
+    border: 0.5px solid;
+    width: 10%;
+    margin: 8% 0 5%;
+}
+
+/* Stile per il testo con colore grigio (#8e8e8e) */
+.container-footer p{
+    color: #8e8e8e;
+}
 
 
 
