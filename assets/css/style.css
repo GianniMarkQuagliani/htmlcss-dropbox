@@ -82,6 +82,11 @@ h3{
     width: 60%; /* Imposta la larghezza al 60% */
 }
 
+/* Stile per l'elemento con classe .w-40 */
+.w-40{
+    width: 40%; /* Imposta la larghezza al 40% */
+}
+
 /* Stile per l'elemento con classe .w-30 */
 .w-30{
     width: 30%; /* Imposta la larghezza al 30% */
