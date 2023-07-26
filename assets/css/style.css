@@ -181,6 +181,9 @@ h3{
     padding: 40px 0; /* Aggiunge spaziatura interna sopra e sotto l'elemento */
 }
 
+.white{
+    color: var(--color-white);
+}
 
 
 
@@ -562,6 +565,9 @@ header nav ul li{
 
 
 /* FOOTER  */
+footer{
+    background-color: var(--color-black);
+}
 footer h3{
     padding: 20px 0;
 }
