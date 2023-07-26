@@ -162,7 +162,13 @@ h3{
     align-items: center;
 }
 
+.pad-top-bottom-50{
+    padding: 50px 0;
+}
 
+.pad-40{
+    padding: 40px 0;
+}
 
 /* HEADER  */
 /* Stile per gli elementi <li> all'interno del menu di navigazione dell'header */
@@ -491,6 +497,22 @@ header nav ul li{
 #back{
     background-color: lightblue;
 }
+
+
+/* Quinta Sezione */
+#fifth-section{
+    padding: 30px 0 100px;
+}
+
+#fifth-section i{
+    position: relative;
+    left: 33%;
+}
+
+#fifth-section p{
+    font-weight: bold;
+}
+
 /* BOTTONI  */
 /* Stile per i pulsanti generici */
 .btn{
