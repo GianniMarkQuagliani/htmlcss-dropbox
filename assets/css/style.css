@@ -9,6 +9,8 @@
 
 
 
+
+
 /* GENERAL  */
 body{
     font-family: 'Open Sans', sans-serif; /* Stile di base per il corpo del documento */
@@ -39,6 +41,7 @@ h3{
     padding: 20px 0px; /* Spaziatura interna superiore e inferiore, nessuna spaziatura laterale */
     font-weight: bold; /* Testo in grassetto */
 }
+
 
 
 
@@ -178,6 +181,10 @@ h3{
     padding: 40px 0; /* Aggiunge spaziatura interna sopra e sotto l'elemento */
 }
 
+
+
+
+
 /* HEADER  */
 /* Stile per gli elementi <li> all'interno del menu di navigazione dell'header */
 header nav ul li{
@@ -238,6 +245,8 @@ header nav ul li{
 .h-top ul li:hover{
     border-bottom: 2px solid black; /* Aggiunge una riga inferiore di 2px di spessore con il colore nero quando il puntatore del mouse è sopra gli elementi del menu di navigazione */
 }
+
+
 
 
 
@@ -334,8 +343,7 @@ header nav ul li{
     padding: 50px 20px 10px; /* Spaziatura interna del contenitore */
 }
 
-
-
+/*----------------------------------------------------------------------------------------------*/
 
 /* SECONDA SEZIONE  */
 /* Sfondo dell'immagine nella seconda sezione */
@@ -362,7 +370,7 @@ header nav ul li{
     padding: 20px 60px 20px 40px; /* Spaziatura interna del contenitore */
 }
 
-
+/*----------------------------------------------------------------------------------------------*/
 
 /* TERZA SEZIONE  */
 /* Stile per il contenitore delle immagini nella sezione tre */
@@ -401,7 +409,7 @@ header nav ul li{
     text-decoration: underline; /* Sottolinea il testo dell'elemento */
 }
 
-
+/*----------------------------------------------------------------------------------------------*/
 
 /* Quarta Sezione */
 /* Stile per l'immagine con classe .img-s4 */
@@ -425,7 +433,6 @@ header nav ul li{
 #university{
     background-color: #61082b; /* Imposta il colore di sfondo per l'elemento #university */
 }
-
 
 /* Stile per l'elemento con id #university quando il puntatore del mouse è sopra di esso o l'elemento è attivo */
 #university:hover, 
@@ -488,7 +495,6 @@ header nav ul li{
     border: 20px solid #293a7d; /* Imposta un bordo di 20px con colore #293a7d quando l'elemento è attivo o il puntatore del mouse è sopra di esso */
 }
 
-
 /* Stile per l'elemento con id #outdoor */
 #outdoor{
     background-color: #ffd830; /* Imposta il colore di sfondo per l'elemento #outdoor */
@@ -527,12 +533,12 @@ header nav ul li{
     padding: 6% 0; /* Aggiunge spaziatura interna per il contenitore con classe .porta-dropbox */
 }
 
-
 /* Stile per l'elemento con id #back */
 #back{
     background-color: lightblue; /* Imposta il colore di sfondo per l'elemento con id #back */
 }
 
+/*----------------------------------------------------------------------------------------------*/
 
 /* Quinta Sezione */
 /* Stile per la quinta sezione con id #fifth-section */
@@ -550,6 +556,44 @@ header nav ul li{
 #fifth-section p{
     font-weight: bold; /* Imposta il testo dei paragrafi in grassetto */
 }
+
+
+
+
+
+/* FOOTER  */
+footer{
+    padding: 20px 0;
+}
+
+.container-footer-2 ul li{
+    padding: 8px 0;
+}
+
+.container-footer-2 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* BOTTONI  */
 /* Stile per i pulsanti generici */
